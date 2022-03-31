@@ -1,0 +1,39 @@
+.foo .bar {
+  color: red;
+}
+body {
+  background-color: lightslategrey;
+}
+
+button:hover {
+  color: red;
+}
+.foobar {
+  border: 2px dotted greenyellow;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  margin-left: 0;
+  background-color: whitesmoke;
+  z-index: -1;
+}
+.foo:hover {
+  font-size: 2rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+.square {
+  border: 2px solid white;
+  width: 80px;
+  height: 800px;
+  margin: 800px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.square:hover {
+  display: none;
+}
